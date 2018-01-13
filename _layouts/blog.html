@@ -1,0 +1,47 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include header.html %}
+    <title>Blog | {{ site.title }}</title>
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    {% include navbar.html %}
+
+	<!-- +++++ Posts Lists +++++ -->
+	<!-- +++++ First Post +++++ -->
+    {% if site.posts.size > 0 %}
+      <div id=blog-list>
+        <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+          <ul class="post-list">
+            {% for post in site.posts %}
+              <li>
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+                <h3>
+                  <a id="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h3>
+              </li>
+            {% endfor %}
+          </ul>
+      </div>
+    {% endif %}
+
+
+
+	<!-- +++++ Footer Section +++++ -->
+
+	{% include footer.html %}
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
