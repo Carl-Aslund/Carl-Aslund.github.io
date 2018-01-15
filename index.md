@@ -3,7 +3,7 @@ title: My page
 layout: default
 ---
 
-# {{ page.title }} <!--Header in Markdown-->
+# Hi, I'm Carl! <!--Header in Markdown-->
 
 Content is written in [Markdown](https://learnxinyminutes.com/docs/markdown/). Plain text format allows you to focus on your **content**.
 
