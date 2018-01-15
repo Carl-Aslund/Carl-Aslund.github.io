@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "My New Year's Resolutions"
+date:   2017-12-31 20:59:18 -0500
+categories: personal
+---
+I've never actually tried any New Year's resolutions before, since I always felt like I could commit to making positive changes whenever I felt like it, and I didn't see any point in making decisions on one day of the year that I wouldn't be able to keep. I have definitely been able to make positive changes to my life without needing a holiday. That being said, results have varied, and I've ended up with a decent laundry list of what should be achievable improvements, so it's time for a little "New Year, New Me."
+
+My first resolution will be to upload to GitHub every day in 2018, to build a habit of more regular coding in my free time. These uploads won't necessarily be large, and some days will only consist of completing a Project Euler problem, several of which seem like they could be one-liners, but for me it's about forming a habit. I also have some other ideas in mind, such as publishing a presentable personal website, coding a digital version of the 24 Card Game, or doing some quality football (not the American kind) data analysis, but ultimately what I'm going for is consistency.
+
+My second resolution will be to practice on DuoLingo every day in 2018, so that I can work on my German pronunciation and vocab, even when I don't have an ongoing German class. Using DuoLingo isn't much of a novelty, but I have struggled to turn it into a regular habit. I've had an account for almost two years now, and yet my longest streak has been merely 23 days, and I've lost far more 7-day wagers than I've won. By turning it into a resolution, hopefully I can keep at it a bit longer. Maybe I'll even throw in some Russian along the way.
+
+My third resolution will be to perform some sort of exercise at least twice in any three consecutive days. I was able to keep up six exercise days per week when I was participating in high school running, but since then most of my exercise has come in brief periods of motivation, and I haven't managed more than 4 days of exercise in a week while at Mudd. I'm ready to change that now, and I'll be sure to get some exercise in, whether that entails a couple sets from a 30-Day-Challenge app, running outdoors (or on an elliptical considering it's below freezing outside), going to the LAC, or just playing football. As my high school's PE teacher, Taylor Brown, would say, "Get Big, Get Cut, Get Swoll! [sic]"
+
+My fourth and final resolution will be to start reading books again on a regular basis. I do plenty of reading online, which refers to newspapers or blogs on my more diligent days, or reddit on my less productive days, but while I read quite regularly when I was younger, I've only read three books in 2017, and I know I can do better than that. To make this a proper challenge for myself, I'll be aiming to read 25 books in 2018, or just over two books a month. To get things starting, I have hard copies *Soonish* by Kelly and Zach Weinersmith, and *Inverting the Pyramid* by Jonathan Wilson.
+
+Here's to a hopefully productive year!
+
+
+*Update: January 15th, 2018
+So far, so good. I've held up my daily commitments, and I just finished reading Soonish.*
