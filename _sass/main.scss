@@ -1,16 +1,24 @@
 // Remove whitespace on top and sides of page
 html, body {
     margin: 0px;
+    font-family: arial;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
 }
 
 // Add margins for body of pages
-#body {
+#container {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 150px;
     margin-right: 150px;
+    text-align: center;
 }
 
+// Styling for header navigation bar
 #navbar {
     background-color: black;
     padding-left: 60px;
@@ -26,22 +34,43 @@ html, body {
 }
 
 #navbar a {
-    color: orange;
     text-align: center;
-    text-decoration: none;
 }
 
 #navbar .right-align {
     float: right;
     font-size: 1.2em;
     margin-right: 40px;
+    width: 80px;
 }
 
 #navbar .right-align:hover {
-    color: yellow;
+    color: #FC0;
 }
 
 #home-button {
     font-weight: bold;
     font-size: 1.5em;
+}
+
+#footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer-row {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.footer-col {
+    position: relative;
+    float: left;
+    width: 30%;
+    left: 5%;
 }
