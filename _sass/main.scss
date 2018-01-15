@@ -1,7 +1,47 @@
+// Remove whitespace on top and sides of page
+html, body {
+    margin: 0px;
+}
+
 // Add margins for body of pages
-body {
+#body {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 150px;
     margin-right: 150px;
+}
+
+#navbar {
+    background-color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0px;
+}
+
+#navbar li {
+    display: inline;
+    margin-left: 40px;
+}
+
+#navbar a {
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar .right-align {
+    float: right;
+    font-size: 1.2em;
+    margin-right: 40px;
+}
+
+#navbar .right-align:hover {
+    color: yellow;
+}
+
+#home-button {
+    font-weight: bold;
+    font-size: 1.5em;
 }
