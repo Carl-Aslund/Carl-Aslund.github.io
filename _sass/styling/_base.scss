@@ -1,0 +1,78 @@
+// Remove whitespace on top and sides of page
+html, body {
+    margin: 0px;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $dark-shades-color;
+}
+
+a {
+    color: $main-brand-color;
+    text-decoration: none;
+}
+
+// Add margins for body of pages
+#container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+// Styling for header navigation bar
+#navbar {
+    background-color: $dark-shades-color;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: 0px;
+}
+
+#navbar li {
+    display: inline;
+    margin-left: 40px;
+}
+
+#navbar a {
+    text-align: center;
+}
+
+#navbar .right-align {
+    float: right;
+    font-size: 1.2em;
+    margin-right: 40px;
+    width: 80px;
+}
+
+#navbar .right-align:hover {
+    color: #FC0;
+}
+
+#home-button {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#footer {
+    color: $light-shades-color;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: $dark-shades-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 0.9em;
+}
+
+#footer-row {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.footer-col {
+    position: relative;
+    float: left;
+    width: 30%;
+    left: 5%;
+}

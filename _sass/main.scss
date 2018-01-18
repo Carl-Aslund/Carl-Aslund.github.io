@@ -1,76 +1,23 @@
-// Remove whitespace on top and sides of page
-html, body {
-    margin: 0px;
-    font-family: arial;
-}
+@charset "utf-8";
 
-a {
-    color: orange;
-    text-decoration: none;
-}
+// Define defaults for each variable.
 
-// Add margins for body of pages
-#container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: center;
-}
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
 
-// Styling for header navigation bar
-#navbar {
-    background-color: black;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    margin: 0px;
-}
+$spacing-unit:     30px !default;
 
-#navbar li {
-    display: inline;
-    margin-left: 40px;
-}
+// Colors (from http://colormind.io/bootstrap/)
+$light-shades-color: #E7E6DD !default;
+$light-accent-color: #C9AAA4 !default;
+$main-brand-color: #D0734B !default;
+$dark-accent-color: #594936 !default;
+$dark-shades-color: #332748 !default;
 
-#navbar a {
-    text-align: center;
-}
-
-#navbar .right-align {
-    float: right;
-    font-size: 1.2em;
-    margin-right: 40px;
-    width: 80px;
-}
-
-#navbar .right-align:hover {
-    color: #FC0;
-}
-
-#home-button {
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-#footer {
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#footer-row {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-}
-
-.footer-col {
-    position: relative;
-    float: left;
-    width: 30%;
-    left: 5%;
-}
+// Import partials.
+@import
+  "styling/base"
+;
