@@ -19,13 +19,17 @@ a {
     text-align: center;
 }
 
+#container a:hover {
+    color: $dark-accent-color;
+}
+
 // Styling for header navigation bar
 #navbar {
     background-color: $dark-shades-color;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
     margin: 0px;
 }
 
@@ -45,8 +49,8 @@ a {
     width: 80px;
 }
 
-#navbar .right-align:hover {
-    color: #FC0;
+#navbar a:hover, #footer a:hover {
+    color: $light-accent-color;
 }
 
 #home-button {
@@ -56,13 +60,13 @@ a {
 
 #footer {
     color: $light-shades-color;
-    margin-top: 100px;
-    position: absolute;
+    height: 160px;
+    right: 0;
     bottom: 0;
-    width: 100%;
+    left: 0;
     background-color: $dark-shades-color;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
     font-size: 0.9em;
 }
 
@@ -79,7 +83,7 @@ a {
 }
 
 .img-link {
-    width: 64px;
-    height: 64px;
-    margin-right: 8px;
+    width: 12%;
+    height: 12%;
+    margin-right: 2%;
 }
