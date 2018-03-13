@@ -12,8 +12,8 @@ a {
 
 // Add margins for body of pages
 #container {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 7%;
+    margin-bottom: 7%;
     margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -58,6 +58,7 @@ a {
     font-size: 1.5em;
 }
 
+// Styling for footer bar
 #footer {
     color: $light-shades-color;
     height: 160px;
@@ -86,4 +87,19 @@ a {
     width: 12%;
     height: 12%;
     margin-right: 2%;
+}
+
+form {
+    margin-left: 20%;
+    text-align: left;
+}
+
+textarea {
+    width: 50%;
+}
+
+label strong{
+    margin-right: 4%;
+    width: 70px;
+    display: inline-block;
 }
