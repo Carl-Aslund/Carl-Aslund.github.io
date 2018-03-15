@@ -7,8 +7,8 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
     </time>
-    {%- if page.author -%}
-        <span class="p-author">{{ page.author }}</span>
+    {%- if page.rating -%}
+        <span class="p-rating"> | Rating: {{ page.rating }}/5</span>
     {%- endif -%}</p>
 </header>
 
