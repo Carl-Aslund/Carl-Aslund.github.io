@@ -1,7 +1,7 @@
 ---
 layout: bookpost
 title:  "Book Review: The Little Prince"
-date:   2018-03-15 00:00:00 -0800
+date:   2018-03-15 15:06:19 -0700
 categories: books
 image: "assets/img/littleprince.jpg"
 source: "https://www.amazon.com/Little-Prince-Antoine-Saint-Exup%C3%A9ry/dp/0156012197"
