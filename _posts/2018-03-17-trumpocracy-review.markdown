@@ -1,7 +1,7 @@
 ---
 layout: bookpost
 title:  "Book Review: Trumpocracy"
-date:   2018-03-17 15:00:06 -0700
+date:   2018-03-17 16:04:50 -0700
 categories: books
 image: "assets/img/trumpocracy.jpg"
 source: "https://www.amazon.com/Trumpocracy-Corruption-American-David-Frum/dp/0062796739"
