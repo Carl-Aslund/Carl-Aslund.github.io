@@ -1,7 +1,7 @@
 ---
 layout: bookpost
 title:  "Book Review: Cat's Cradle"
-date:   2018-04-11 00:00:00 -0700
+date:   2018-04-11 16:29:05 -0700
 categories: books
 image: "assets/img/cats-cradle.jpg"
 source: "https://www.amazon.com/Cats-Cradle-Novel-Kurt-Vonnegut/dp/038533348X"
